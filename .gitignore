@@ -169,3 +169,6 @@ cython_debug/
 *.swp
 *.swo
 .DS_Store
+# Ignore frontend build artifacts and dependencies
+frontend/node_modules/
+frontend/.next/
