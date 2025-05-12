@@ -156,13 +156,14 @@ As a new Git user, it's smart to verify instructions! Here's how:
 
 #### 🔄 Fork the Repository
 
-	- Navigate to the original repository on GitHub
-	Example: https://github.com/AI-Maker-Space/The-AI-Engineer-Challenge
-	
-	![GitHub Fork button screenshot](https://i.imgur.com/bhjySNh.png)
-	- Click the "Fork" button in the top-right corner
-	- Keep the repository name as is or change it if you'd like
-	- Click "Create fork"
+	- Navigate to the original repository on GitHub  
+  Example: https://github.com/AI-Maker-Space/The-AI-Engineer-Challenge
+
+![GitHub Fork button screenshot](https://i.imgur.com/bhjySNh.png)
+
+- Click the "Fork" button in the top-right corner  
+- Keep the repository name as is or change it if you'd like  
+- Click "Create fork"
 
 
 💡 **What is forking?** Forking creates your own copy of someone else’s repository on GitHub. It’s like photocopying a recipe so you can make your own changes without affecting the original. This allows you to freely experiment, contribute back via pull requests, or build your own version of a project — all while keeping the original intact.
