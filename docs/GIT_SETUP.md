@@ -22,15 +22,18 @@ Time to tell Git who you are! This is like setting up your developer ID card. Yo
 - Show up in commit history (your contributions are properly attributed)
 - Connect your work to your GitHub profile (when email matches)
 - Help other developers know who to contact about changes
-
-#### ⚠️ What happens if you don't set your identity?
+<details>
+<summary>⚠️ What happens if you don't set your identity?</summary>
 
 If you don't set your Git identity:
 
-- Commits will show as "unknown" or use your system username
-- Your contributions won't be linked to your GitHub profile
-- You might get warnings when trying to commit
+- Commits will show as "unknown" or use your system username  
+- Your contributions won't be linked to your GitHub profile  
+- You might get warnings when trying to commit  
 - Other developers won't know who to contact about your changes
+
+</details>
+
 ```bash
 # Set your name and email (Git needs to know who's making those awesome commits!)
 git config --global user.name "<YOUR-NAME>"
@@ -155,6 +158,7 @@ As a new Git user, it's smart to verify instructions! Here's how:
 
 	- Navigate to the original repository on GitHub
 	Example: https://github.com/AI-Maker-Space/The-AI-Engineer-Challenge
+	
 	![GitHub Fork button screenshot](https://i.imgur.com/bhjySNh.png)
 	- Click the "Fork" button in the top-right corner
 	- Keep the repository name as is or change it if you'd like
