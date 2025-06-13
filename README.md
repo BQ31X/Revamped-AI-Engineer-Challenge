@@ -8,7 +8,7 @@
 
 ## 🤖 Your First Vibe Coding LLM Application
 
-> If you are a novice, and need more hand-holding to get your dev environment off the ground,  check out this [Setup Guide](docs/GIT_SETUP.md). This guide will walk you through the 'git' setup you need to get started.
+> If you are a novice, and need a bit more help to get your dev environment off the ground, check out this [Setup Guide](docs/GIT_SETUP.md). This guide will walk you through the 'git' setup you need to get started.
 
 > For additional context on LLM development environments and API key setup, you can also check out our [Interactive Dev Environment for LLM Development](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-AI-Engineers).
 
@@ -153,6 +153,14 @@ While it is a bit counter-intuitive to set things up before jumping into vibe-co
 > NOTE: Remember, if you run into any errors - ask Cursor to help you fix them!
 
 </details>
+
+### Vercel Link to Share
+
+You'll want to make sure you share you *domains* hyperlink to ensure people can access your app!
+
+![image](https://i.imgur.com/mpXIgIz.png)
+
+> NOTE: Test this is the public link by trying to open your newly deployed site in an Incognito browser tab!
 
 ### 🎉 Congratulations! 
 
