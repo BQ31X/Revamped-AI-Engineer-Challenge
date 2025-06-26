@@ -46,6 +46,8 @@ async def chat(request: ChatRequest):
                     {"role": "developer", "content": request.developer_message},
                     {"role": "user", "content": request.user_message}
                 ],
+                temperature=1.2,
+                max_tokens=350,
                 stream=True  # Enable streaming response
             )
             

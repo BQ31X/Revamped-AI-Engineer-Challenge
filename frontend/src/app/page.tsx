@@ -20,7 +20,7 @@ export default function Home() {
 
     try {
       const response = await axios.post('/api/chat', {
-        developer_message: "You are a helpful AI assistant.",
+        developer_message: "Respond concisely and clearly. When asked to generate stories or narratives, be imaginative and surprising, but stay logically consistent. When answering factual questions, prioritize accuracy and brevity.",
         user_message: userMessage,
         api_key: apiKey
       }, {
