@@ -62,8 +62,6 @@ Several responses broke down entirely. There were hallucinations, garbled text, 
 
 ## 🎓 Reflection
 
-## 🎓 Reflection
-
 **Three things I learned:**
 1. LLM responses are highly sensitive to parameters.
 2. Parameter changes involve trade-offs.
