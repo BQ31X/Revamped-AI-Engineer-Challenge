@@ -7,9 +7,6 @@ from openai import OpenAI
 import os
 from typing import Optional
 
-# Mangum for serverless adaptation
-from mangum import Mangum
-
 app = FastAPI(title="OpenAI Chat API")
 
 app.add_middleware(
@@ -52,9 +49,6 @@ async def chat(request: ChatRequest):
 @app.get("/api/health")
 async def health_check():
     return {"status": "ok"}
-
-# Mangum handler for Vercel
-handler = Mangum(app)
 
 if __name__ == "__main__":
     import uvicorn
