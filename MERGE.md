@@ -77,7 +77,7 @@ This feature branch (`feature/pdf-rag-system`) adds comprehensive PDF upload and
      ### Dependencies Added
      - PyPDF2==3.0.1
      - python-dotenv==1.0.0
-     - numpy==1.24.3
+     - numpy>=1.26.0
      ```
 
 3. **Review and Merge:**
@@ -108,7 +108,7 @@ This PR adds comprehensive PDF upload and RAG chat functionality using the aimak
 ### Dependencies Added
 - PyPDF2==3.0.1
 - python-dotenv==1.0.0
-- numpy==1.24.3" \
+- numpy>=1.26.0" \
   --base main \
   --head feature/pdf-rag-system
 
@@ -228,7 +228,7 @@ Ensure the following environment variables are set in production:
 ## Dependencies Added
 - `PyPDF2==3.0.1` - PDF text extraction
 - `python-dotenv==1.0.0` - Environment variable management  
-- `numpy==1.24.3` - Vector operations (if not already present)
+- `numpy>=1.26.0` - Vector operations (Python 3.13 compatible)
 
 ## Breaking Changes
 None - All changes are additive and backward compatible.
