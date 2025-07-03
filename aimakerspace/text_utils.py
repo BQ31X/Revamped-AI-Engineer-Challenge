@@ -94,11 +94,16 @@ class PDFLoader:
             # Create PDF reader object
             pdf_reader = PyPDF2.PdfReader(file)
             
+            print(f"PDF has {len(pdf_reader.pages)} pages")
+            
             # Extract text from each page
             text = ""
-            for page in pdf_reader.pages:
-                text += page.extract_text() + "\n"
+            for i, page in enumerate(pdf_reader.pages):
+                page_text = page.extract_text()
+                print(f"Page {i+1} extracted {len(page_text)} characters")
+                text += page_text + "\n"
             
+            print(f"Total extracted text length: {len(text.strip())}")
             self.documents.append(text)
 
     def load_directory(self):
