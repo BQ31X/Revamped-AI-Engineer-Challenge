@@ -1,5 +1,10 @@
 fastapi==0.109.2
 uvicorn==0.27.1
-openai==1.12.0
+openai==1.93.0
 pydantic==2.6.1
 python-multipart==0.0.18
+httpx
+jiter
+PyPDF2==3.0.1
+python-dotenv==1.0.0
+numpy>=1.26.0
